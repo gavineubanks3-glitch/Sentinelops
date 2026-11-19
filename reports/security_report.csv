@@ -1,0 +1,5 @@
+resource,severity,finding,recommendation
+customer-storage,HIGH,Storage allows public access,Disable public access unless explicitly required.
+customer-storage,HIGH,Storage encryption is disabled,Enable encryption for stored data.
+customer-storage,MEDIUM,Storage logging is disabled,Enable logging to support monitoring and investigations.
+web-server-firewall,HIGH,Firewall allows unrestricted inbound traffic,Restrict inbound traffic to approved ports and sources.

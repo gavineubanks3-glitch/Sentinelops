@@ -1,0 +1,26 @@
+
+{
+    "project_name": "SentinelOps Demo Environment",
+    "resources": [
+        {
+            "name": "customer-storage",
+            "type": "storage",
+            "public_access": true,
+            "encryption_enabled": false,
+            "logging_enabled": false
+        },
+        {
+            "name": "application-storage",
+            "type": "storage",
+            "public_access": false,
+            "encryption_enabled": true,
+            "logging_enabled": true
+        },
+        {
+            "name": "web-server-firewall",
+            "type": "firewall",
+            "unrestricted_inbound": true
+        }
+    ]
+}
+
